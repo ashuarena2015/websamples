@@ -1,0 +1,183 @@
+/* --------------------------------------------------------------------------
+ * Foundstrap  : Color Theme - default
+ *  
+ * file        : default.css
+ * Version     : 1.0
+ * Author      : foundstrap - team
+ * Author URI  : http://foundstrap.com
+ *
+ * Foundstrap Copyright 2015 All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+::selection {
+  background-color: #6f2e82; }
+
+::-moz-selection {
+  background-color: #6f2e82; }
+
+#scrollUp, .navigation-container, .icon-shape.circle,
+.icon-shape.square,
+.icon-shape.radius,
+.text-shape.circle,
+.text-shape.square,
+.text-shape.radius, .button, blockquote cite span, .box-counter hr, .slideshow .slider-separator:before, .slideshow .slider-button, .slideshow .slider-list, .me-pricing .pricing-title, .pin-team, .pin-team span, .information-box,
+.testimonial-description span,
+.me-team span,
+.me-team .social-icon a,
+.date-blog-information span,
+.badge,
+.sharing-box .social-list a,
+.comment-text .reply, .me-panel.fold, .image-content .img-overlay,
+.me-image .image-caption:after, .portfolio-filter .button.selected, .mejs-controls .mejs-time-rail .mejs-time-current,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, .pagination li.active a, .circle-icon-list i, .contact-form label.focus, .dropcap.circle,
+.dropcap.square,
+.highlight, .promo-box:before,
+.progress-bar .progress-content {
+  background-color: #6f2e82; }
+
+#scrollUp:hover, .button:hover, .button:focus, .button.button-border:hover, .slideshow .slider-button:hover, .me-pricing .pricing-price, .portfolio-filter .button:hover, .pagination li a:hover,
+.pagination li.active a:hover, .button.button-icon-right:hover .button-icon, .button.button-icon-left:hover .button-icon {
+  background-color: #42b3ed; }
+
+a, .text-color, .button.button-border, .button.button-link, .box-counter2 span, .box-counter i, .page-title, .me-breadcrumb > .active,
+.services-list i,
+.widget-popular a,
+.blog-author .author-link, .widget-twitter .twitter-text a,
+.widget-twitter .twitter-text .at, .icon-shape i,
+.icon-shape span,
+.text-shape i,
+.text-shape span, h4.resp-accordion:hover,
+h4.resp-accordion:focus,
+.resp-tabs-list li:hover,
+.resp-tabs-list li:focus, .circle-icon-list, #toggle-switcher i {
+  color: #6f2e82; }
+
+a:hover, .action-header a:hover, .me-menu ul a.active, .me-menu ul a:hover, .me-menu ul a:focus, .me-menu ul a.highlighted, .me-menu a:hover span.sub-arrow:after,
+.me-menu a:focus span.sub-arrow:after,
+.me-menu a:active span.sub-arrow:after,
+.me-menu a.highlighted span.sub-arrow:after, .form-search-trigger.active, .form-search-trigger:hover, .button.button-link:hover, #me-footer a:hover, #slideshow-container .tp-rightarrow.default:hover:before,
+#slideshow-container .tp-leftarrow.default:hover:before, .testimonial-carousel-nav .left-nav:hover i, .testimonial-carousel-nav .right-nav:hover i, .me-breadcrumb a:hover,
+.post-title:hover,
+.post-information a:hover,
+.blog-author .author-link:hover, .blog-link a:hover, .widget-category a:hover,
+.widget-archive a:hover,
+.widget-popular a:hover, .widget-twitter .twitter-text a:hover, .widget-twitter .twitter-text a:focus,
+.widget-twitter .twitter-text .at:hover,
+.widget-twitter .twitter-text .at:focus, .me-list a:hover, #toggle-switcher:hover i, .search-trigger,
+.menu-trigger, .search-trigger.active, .search-trigger:hover,
+.menu-trigger.active,
+.menu-trigger:hover {
+  color: #148cb8; }
+
+.slideshow .tp-bannertimer {
+  background: rgba(22, 159, 230, 0.5); }
+
+.navigation-container {
+  border-top: 5px solid #1285c1; }
+
+.me-menu a.active, .me-menu a:hover, .me-menu a:focus, .me-menu a.highlighted {
+  background: #c7aa2c; }
+
+#me-header.header-version2 .me-menu a.active, #me-header.header-version2 .me-menu a:hover, #me-header.header-version2 .me-menu a:focus, #me-header.header-version2 .me-menu a.highlighted,
+#me-header.header-version3 .me-menu a.active,
+#me-header.header-version3 .me-menu a:hover,
+#me-header.header-version3 .me-menu a:focus,
+#me-header.header-version3 .me-menu a.highlighted {
+  color: #6f2e82; }
+  #me-header.header-version2 .me-menu a.active:before, #me-header.header-version2 .me-menu a:hover:before, #me-header.header-version2 .me-menu a:focus:before, #me-header.header-version2 .me-menu a.highlighted:before,
+  #me-header.header-version3 .me-menu a.active:before,
+  #me-header.header-version3 .me-menu a:hover:before,
+  #me-header.header-version3 .me-menu a:focus:before,
+  #me-header.header-version3 .me-menu a.highlighted:before {
+    background: #6f2e82; }
+#me-header.header-version2 .me-menu ul a.active, #me-header.header-version2 .me-menu ul a:hover, #me-header.header-version2 .me-menu ul a:focus, #me-header.header-version2 .me-menu ul a.highlighted,
+#me-header.header-version3 .me-menu ul a.active,
+#me-header.header-version3 .me-menu ul a:hover,
+#me-header.header-version3 .me-menu ul a:focus,
+#me-header.header-version3 .me-menu ul a.highlighted {
+  color: #6f2e82; }
+#me-header.header-version2 .form-search-trigger.active, #me-header.header-version2 .form-search-trigger:hover,
+#me-header.header-version3 .form-search-trigger.active,
+#me-header.header-version3 .form-search-trigger:hover {
+  color: #6f2e82; }
+#me-header.header-version2 .form-search .input-group-icon,
+#me-header.header-version3 .form-search .input-group-icon {
+  background: #6f2e82; }
+
+.form-search .form-control {
+  background: #c7aa2c;
+  color: #fff; }
+.form-search .input-group-icon {
+  color: #fff; }
+.form-search .form-control::-moz-placeholder {
+  color: #fff; }
+.form-search .form-control:-ms-input-placeholder {
+  color: #fff; }
+.form-search .form-control::-webkit-input-placeholder {
+  color: #fff; }
+
+.icon-shape.stroke,
+.text-shape.stroke {
+  border-color: #6f2e82;
+  background: transparent; }
+  .icon-shape.stroke span, .icon-shape.stroke i,
+  .text-shape.stroke span,
+  .text-shape.stroke i {
+    color: #6f2e82; }
+
+.button.button-border {
+  border-color: #6f2e82; }
+.button.button-border:hover {
+  border-color: #42b3ed; }
+
+.pin-team span:before {
+  border-color: #6f2e82 transparent; }
+
+.blog-carousel-nav .left-nav:hover,
+.blog-carousel-nav .right-nav:hover {
+  background: rgba(22, 159, 230, 0.5); }
+
+.me-panel.fold:before {
+  border-color: #fff #fff #1178ae #1178ae; }
+
+.form-control:focus {
+  border-color: #6f2e82; }
+
+.widget-tag .tag-cloud a:hover {
+  color: #6f2e82;
+  border-color: #6f2e82; }
+
+h4.resp-accordion.resp-tab-active,
+h4.resp-accordion.resp-tab-active:hover,
+h4.resp-accordion.resp-tab-active:active,
+.resp-tabs-list li.resp-tab-active,
+.resp-tabs-list li.resp-tab-active:hover,
+.resp-tabs-list li.resp-tab-active:active {
+  background: #6f2e82;
+  border: 1px solid #6f2e82; }
+
+.pagination li a:hover,
+.pagination li.active a:hover {
+  border-color: #42b3ed; }
+
+.pagination li.active a {
+  border-color: #6f2e82; }
+
+.button.button-icon-right .button-icon, .button.button-icon-left .button-icon {
+  background: #1285c1; }
+
+.search-trigger,
+.menu-trigger {
+  background: #1285c1; }
+
+@media screen and (max-width: 700px) {
+  .me-menu a.active,
+  .me-menu a:hover,
+  .me-menu a:focus,
+  .me-menu a.highlighted {
+    color: #42b3ed; } }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .search-trigger.active, .search-trigger:hover,
+  .menu-trigger.active,
+  .menu-trigger:hover {
+    color: #fff !important;
+    background: #42b3ed !important; } }

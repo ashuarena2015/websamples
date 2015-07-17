@@ -1,0 +1,70 @@
+/* --------------------------------------------------------------------------
+ * Indonez        : Enix- HTML Template
+ *  
+ * file           : revolution-responsive.css
+ * Version        : 1.0
+ * Author         : indonez - team
+ * Author URI     : http://indonez.com
+ *
+ * Copyright 2015. All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------
+   
+   [Table of contents]
+   1. notebook
+   2. tablet landscape
+   3. tablet portrait
+   4. mobile landscape
+   5. mobile portrait
+
+------------------------------------------------------------------ */
+
+@import url("revolution-responsive.css");
+
+
+/* [Notebook] */
+@media only screen and (max-width: 1280px) {
+  /* your responsive style here */ }
+
+/* [Tablet Landscape] */
+@media only screen and (max-width: 1024px) {
+  .slide1-title,
+  .slide1-caption,
+  .slider-separator {
+    margin-left: 19px; }
+
+  .slide1-image {
+    margin-left: -19px; }
+
+  .slide3-title1,
+  .slide3-title2,
+  .slide3-caption1,
+  .slide3-caption2,
+  .slide3-caption3 {
+    margin-left: 19px; }
+
+  .slider-separator {
+    width: 425px !important; } }
+
+/* [Tablet Portrait] */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .slider-separator {
+    width: 320px !important; }
+
+  .slider2-button {
+    margin-left: -30px; } }
+
+/* [Mobile Landscape] */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .slider-separator {
+    width: 235px !important; }
+
+  .slider2-button {
+    margin-left: -85px; } }
+
+/* [Mobile Portrait] */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .slider2-button,
+  .slider-separator {
+    display: none; } }

@@ -1,0 +1,226 @@
+/* --------------------------------------------------------------------------
+ * Indonez  	: Enix - HTML Template
+ *  
+ * file         : element.css
+ * Version 		: 1.0
+ * Author       : indonez - team
+ * Author URI   : http://indonez.com
+ *
+ * Indonez Copyright 2015 All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------
+	
+	[Table of contents]
+	1. button
+	3. pricing table
+	
+------------------------------------------------------------------ */
+/* [icon shape] */
+.icon-shape.white i, .icon-shape.white span,
+.text-shape.white i,
+.text-shape.white span {
+  color: #fff; }
+.icon-shape.white.circle, .icon-shape.white.square, .icon-shape.white.radius,
+.text-shape.white.circle,
+.text-shape.white.square,
+.text-shape.white.radius {
+  background: #fff; }
+  .icon-shape.white.circle i, .icon-shape.white.circle span, .icon-shape.white.square i, .icon-shape.white.square span, .icon-shape.white.radius i, .icon-shape.white.radius span,
+  .text-shape.white.circle i,
+  .text-shape.white.circle span,
+  .text-shape.white.square i,
+  .text-shape.white.square span,
+  .text-shape.white.radius i,
+  .text-shape.white.radius span {
+    color: inherit; }
+.icon-shape.white.stroke,
+.text-shape.white.stroke {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff; }
+  .icon-shape.white.stroke i, .icon-shape.white.stroke span,
+  .text-shape.white.stroke i,
+  .text-shape.white.stroke span {
+    color: inherit; }
+.icon-shape.green i, .icon-shape.green span,
+.text-shape.green i,
+.text-shape.green span {
+  color: #87B822; }
+.icon-shape.green.circle, .icon-shape.green.square, .icon-shape.green.radius,
+.text-shape.green.circle,
+.text-shape.green.square,
+.text-shape.green.radius {
+  background: #87B822; }
+  .icon-shape.green.circle i, .icon-shape.green.circle span, .icon-shape.green.square i, .icon-shape.green.square span, .icon-shape.green.radius i, .icon-shape.green.radius span,
+  .text-shape.green.circle i,
+  .text-shape.green.circle span,
+  .text-shape.green.square i,
+  .text-shape.green.square span,
+  .text-shape.green.radius i,
+  .text-shape.green.radius span {
+    color: #fff; }
+.icon-shape.green.stroke,
+.text-shape.green.stroke {
+  background: transparent;
+  border: 2px solid #87B822;
+  color: #87B822; }
+  .icon-shape.green.stroke i, .icon-shape.green.stroke span,
+  .text-shape.green.stroke i,
+  .text-shape.green.stroke span {
+    color: #87B822; }
+.icon-shape.blue i, .icon-shape.blue span,
+.text-shape.blue i,
+.text-shape.blue span {
+  color: #169fe6; }
+.icon-shape.blue.circle, .icon-shape.blue.square, .icon-shape.blue.radius,
+.text-shape.blue.circle,
+.text-shape.blue.square,
+.text-shape.blue.radius {
+  background: #169fe6; }
+  .icon-shape.blue.circle i, .icon-shape.blue.circle span, .icon-shape.blue.square i, .icon-shape.blue.square span, .icon-shape.blue.radius i, .icon-shape.blue.radius span,
+  .text-shape.blue.circle i,
+  .text-shape.blue.circle span,
+  .text-shape.blue.square i,
+  .text-shape.blue.square span,
+  .text-shape.blue.radius i,
+  .text-shape.blue.radius span {
+    color: #fff; }
+.icon-shape.blue.stroke,
+.text-shape.blue.stroke {
+  background: transparent;
+  border: 2px solid #169fe6;
+  color: #169fe6; }
+  .icon-shape.blue.stroke i, .icon-shape.blue.stroke span,
+  .text-shape.blue.stroke i,
+  .text-shape.blue.stroke span {
+    color: #169fe6; }
+.icon-shape.yellow i, .icon-shape.yellow span,
+.text-shape.yellow i,
+.text-shape.yellow span {
+  color: #F0C42C; }
+.icon-shape.yellow.circle, .icon-shape.yellow.square, .icon-shape.yellow.radius,
+.text-shape.yellow.circle,
+.text-shape.yellow.square,
+.text-shape.yellow.radius {
+  background: #F0C42C; }
+  .icon-shape.yellow.circle i, .icon-shape.yellow.circle span, .icon-shape.yellow.square i, .icon-shape.yellow.square span, .icon-shape.yellow.radius i, .icon-shape.yellow.radius span,
+  .text-shape.yellow.circle i,
+  .text-shape.yellow.circle span,
+  .text-shape.yellow.square i,
+  .text-shape.yellow.square span,
+  .text-shape.yellow.radius i,
+  .text-shape.yellow.radius span {
+    color: #fff; }
+.icon-shape.yellow.stroke,
+.text-shape.yellow.stroke {
+  background: transparent;
+  border: 2px solid #F0C42C;
+  color: #F0C42C; }
+  .icon-shape.yellow.stroke i, .icon-shape.yellow.stroke span,
+  .text-shape.yellow.stroke i,
+  .text-shape.yellow.stroke span {
+    color: #F0C42C; }
+.icon-shape.red i, .icon-shape.red span,
+.text-shape.red i,
+.text-shape.red span {
+  color: #E75B4C; }
+.icon-shape.red.circle, .icon-shape.red.square, .icon-shape.red.radius,
+.text-shape.red.circle,
+.text-shape.red.square,
+.text-shape.red.radius {
+  background: #E75B4C; }
+  .icon-shape.red.circle i, .icon-shape.red.circle span, .icon-shape.red.square i, .icon-shape.red.square span, .icon-shape.red.radius i, .icon-shape.red.radius span,
+  .text-shape.red.circle i,
+  .text-shape.red.circle span,
+  .text-shape.red.square i,
+  .text-shape.red.square span,
+  .text-shape.red.radius i,
+  .text-shape.red.radius span {
+    color: #fff; }
+.icon-shape.red.stroke,
+.text-shape.red.stroke {
+  background: transparent;
+  border: 2px solid #E75B4C;
+  color: #E75B4C; }
+  .icon-shape.red.stroke i, .icon-shape.red.stroke span,
+  .text-shape.red.stroke i,
+  .text-shape.red.stroke span {
+    color: #E75B4C; }
+.icon-shape.gray i, .icon-shape.gray span,
+.text-shape.gray i,
+.text-shape.gray span {
+  color: #7f8c8d; }
+.icon-shape.gray.circle, .icon-shape.gray.square, .icon-shape.gray.radius,
+.text-shape.gray.circle,
+.text-shape.gray.square,
+.text-shape.gray.radius {
+  background: #7f8c8d; }
+  .icon-shape.gray.circle i, .icon-shape.gray.circle span, .icon-shape.gray.square i, .icon-shape.gray.square span, .icon-shape.gray.radius i, .icon-shape.gray.radius span,
+  .text-shape.gray.circle i,
+  .text-shape.gray.circle span,
+  .text-shape.gray.square i,
+  .text-shape.gray.square span,
+  .text-shape.gray.radius i,
+  .text-shape.gray.radius span {
+    color: #fff; }
+.icon-shape.gray.stroke,
+.text-shape.gray.stroke {
+  background: transparent;
+  border: 2px solid #7f8c8d;
+  color: #7f8c8d; }
+  .icon-shape.gray.stroke i, .icon-shape.gray.stroke span,
+  .text-shape.gray.stroke i,
+  .text-shape.gray.stroke span {
+    color: #7f8c8d; }
+.icon-shape.black i, .icon-shape.black span,
+.text-shape.black i,
+.text-shape.black span {
+  color: #3a3a3a; }
+.icon-shape.black.circle, .icon-shape.black.square, .icon-shape.black.radius,
+.text-shape.black.circle,
+.text-shape.black.square,
+.text-shape.black.radius {
+  background: #3a3a3a; }
+  .icon-shape.black.circle i, .icon-shape.black.circle span, .icon-shape.black.square i, .icon-shape.black.square span, .icon-shape.black.radius i, .icon-shape.black.radius span,
+  .text-shape.black.circle i,
+  .text-shape.black.circle span,
+  .text-shape.black.square i,
+  .text-shape.black.square span,
+  .text-shape.black.radius i,
+  .text-shape.black.radius span {
+    color: #fff; }
+.icon-shape.black.stroke,
+.text-shape.black.stroke {
+  background: transparent;
+  border: 2px solid #3a3a3a;
+  color: #3a3a3a; }
+  .icon-shape.black.stroke i, .icon-shape.black.stroke span,
+  .text-shape.black.stroke i,
+  .text-shape.black.stroke span {
+    color: #3a3a3a; }
+
+/* [pricing table] */
+.me-pricing.green .pricing-title {
+  background: #87B822; }
+.me-pricing.green .pricing-price {
+  background: #a3d934; }
+.me-pricing.blue .pricing-title {
+  background: #169fe6; }
+.me-pricing.blue .pricing-price {
+  background: #42b3ed; }
+.me-pricing.red .pricing-title {
+  background: #E75B4C; }
+.me-pricing.red .pricing-price {
+  background: #ed8479; }
+.me-pricing.yellow .pricing-title {
+  background: #F0C42C; }
+.me-pricing.yellow .pricing-price {
+  background: #f3d15c; }
+.me-pricing.gray .pricing-title {
+  background: #7f8c8d; }
+.me-pricing.gray .pricing-price {
+  background: #a7b0b1; }
+.me-pricing.black .pricing-title {
+  background: #3a3a3a; }
+.me-pricing.black .pricing-price {
+  background: #606060; }
